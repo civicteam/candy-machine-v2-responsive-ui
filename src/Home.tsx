@@ -549,8 +549,8 @@ const Home = (props: HomeProps) => {
                                                 gatekeeperNetwork={
                                                     candyMachine?.state?.gatekeeper?.gatekeeperNetwork
                                                 } // This is the ignite (captcha) network
-                                                /// Don't need this for mainnet
                                                 clusterUrl={rpcUrl}
+                                                cluster={cluster}
                                                 options={{autoShowModal: false}}
                                             >
                                                 <MintButton
